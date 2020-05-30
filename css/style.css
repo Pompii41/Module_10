@@ -305,6 +305,8 @@ html {
 .icon_services--item {
   width: 32px;
   height: 32px;
+  fill: rgb(149, 225, 211);
+
 }
 
 .title_services {
@@ -383,6 +385,8 @@ html {
 
 .image_team {
   margin-bottom: 30px;
+  width: 380px;
+  height: 470px;
 }
 
 .box_image:hover .overlay {
