@@ -29,13 +29,13 @@ html {
       left top, left bottom,
       from(rgb(243, 129, 129, 0.9)),
       to(rgb(252, 227, 138, 0.9))),
-    url(../img/fone/fone/15-min.jpg);
+    url(../img/fone/fone.jpg);
   background-image: -o-linear-gradient(rgb(243, 129, 129, 0.9),
       rgb(252, 227, 138, 0.9)),
-    url(../img/fone/fone/15-min.jpg);
+    url(../img/fone/fone.jpg);
   background-image: linear-gradient(rgb(243, 129, 129, 0.9),
       rgb(252, 227, 138, 0.9)),
-    url(../img/fone/fone/15-min.jpg);
+    url(../img/fone/fone.jpg);
   background-size: cover;
 
 }
@@ -49,13 +49,13 @@ html {
         left top, left bottom,
         from(rgb(243, 129, 129, 0.9)),
         to(rgb(252, 227, 138, 0.9))),
-      url(../img/fone/fone/15@2x-min.jpg);
+      url(../img/fone/fone@2x-min.jpg);
     background-image: -o-linear-gradient(rgb(243, 129, 129, 0.9),
         rgb(252, 227, 138, 0.9)),
-      url(../img/fone/fone/15@2x-min.jpg);
+      url(../img/fone/fone@2x-min.jpg);
     background-image: linear-gradient(rgb(243, 129, 129, 0.9),
         rgb(252, 227, 138, 0.9)),
-      url(../img/fone/fone/15@2x-min.jpg);
+      url(../img/fone/fone@2x-min.jpg);
     background-size: cover;
 
   }
@@ -424,6 +424,7 @@ html {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .social {
