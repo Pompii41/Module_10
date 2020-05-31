@@ -29,13 +29,13 @@ html {
       left top, left bottom,
       from(rgb(243, 129, 129, 0.9)),
       to(rgb(252, 227, 138, 0.9))),
-    url(../img/fone/Layer\ 15-min.jpg);
+    url(../img/fone/fone/15-min.jpg);
   background-image: -o-linear-gradient(rgb(243, 129, 129, 0.9),
       rgb(252, 227, 138, 0.9)),
-    url(../img/fone/Layer\ 15-min.jpg);
+    url(../img/fone/fone/15-min.jpg);
   background-image: linear-gradient(rgb(243, 129, 129, 0.9),
       rgb(252, 227, 138, 0.9)),
-    url(../img/fone/Layer\ 15-min.jpg);
+    url(../img/fone/fone/15-min.jpg);
   background-size: cover;
 
 }
@@ -49,13 +49,13 @@ html {
         left top, left bottom,
         from(rgb(243, 129, 129, 0.9)),
         to(rgb(252, 227, 138, 0.9))),
-      url(../img/fone/layer\15@2x-min.jpg);
+      url(../img/fone/fone/15@2x-min.jpg);
     background-image: -o-linear-gradient(rgb(243, 129, 129, 0.9),
         rgb(252, 227, 138, 0.9)),
-      url(../img/fone/layer\15@2x-min.jpg);
+      url(../img/fone/fone/15@2x-min.jpg);
     background-image: linear-gradient(rgb(243, 129, 129, 0.9),
         rgb(252, 227, 138, 0.9)),
-      url(../img/fone/layer\15@2x-min.jpg);
+      url(../img/fone/fone/15@2x-min.jpg);
     background-size: cover;
 
   }
@@ -398,27 +398,10 @@ html {
 
 .icon_social {
   fill: #f38181;
+  width: 26px;
+  height: 26px;
 }
 
-.icon_facebook--svg {
-  width: 15px;
-  height: 32px;
-}
-
-.icon_twitter--svg {
-  width: 39px;
-  height: 32px;
-}
-
-.icon_pinteres--svg {
-  width: 24px;
-  height: 32px;
-}
-
-.icon-instagram_svg {
-  width: 32px;
-  height: 32px;
-}
 
 .social_item:hover .icon_social {
   fill: antiquewhite;
