@@ -88,7 +88,7 @@ StyleCopReport.xml
 *.log
 *.vspscc
 *.vssscc
-.builds
+
 *.pidb
 *.svclog
 *.scc
@@ -127,7 +127,7 @@ _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
-# TeamCity is a build add-in
+# TeamCity is a  add-in
 _TeamCity*
 
 # DotCover is a Code Coverage Tool

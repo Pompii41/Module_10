@@ -25,39 +25,19 @@ html {
 }
 
 .conteiner {
-  background-image: -webkit-gradient(linear,
-      left top, left bottom,
-      from(rgb(243, 129, 129, 0.9)),
-      to(rgb(252, 227, 138, 0.9))),
-    url(../img/fone/fone.jpg);
-  background-image: -o-linear-gradient(rgb(243, 129, 129, 0.9),
-      rgb(252, 227, 138, 0.9)),
-    url(../img/fone/fone.jpg);
-  background-image: linear-gradient(rgb(243, 129, 129, 0.9),
-      rgb(252, 227, 138, 0.9)),
-    url(../img/fone/fone.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgb(252, 227, 138, 0.5)),
+    url(../img/fone/staryj-stil-zapis-paluba-muzyka-fon.jpg);
   background-size: cover;
-
 }
 
-@media (-webkit-min-device-pixel-ratio: 2),
-(-o-min-device-pixel-ratio: 2/1),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .conteiner {
-    background-image: -webkit-gradient(linear,
-        left top, left bottom,
-        from(rgb(243, 129, 129, 0.9)),
-        to(rgb(252, 227, 138, 0.9))),
-      url(../img/fone/fone@2x-min.jpg);
-    background-image: -o-linear-gradient(rgb(243, 129, 129, 0.9),
-        rgb(252, 227, 138, 0.9)),
-      url(../img/fone/fone@2x-min.jpg);
-    background-image: linear-gradient(rgb(243, 129, 129, 0.9),
-        rgb(252, 227, 138, 0.9)),
-      url(../img/fone/fone@2x-min.jpg);
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgb(252, 227, 138, 0.5)
+      ),
+      url(../img/fone/staryj-stil-zapis-paluba-muzyka-fon.jpg);
     background-size: cover;
-
   }
 }
 
@@ -68,36 +48,22 @@ html {
 }
 
 .nav_conteiner {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 611px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
 .nav_box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 1200px;
   margin: 0 auto;
 }
 
 .nav_item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 502px;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -107,21 +73,13 @@ html {
 
 .icon-nav:hover {
   fill: #fce38a;
-  -webkit-transition: linear 3c;
-  -o-transition: linear 3c;
   transition: linear 3c;
 }
 
 .btn_icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 78px;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -150,13 +108,11 @@ html {
   margin: 0 auto;
   color: #fce38a;
   padding: 10px;
-  -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 
 .title_decoration {
-  font-size: 72px;
+  font-size: 120px;
   font-family: "Kaushan Script", cursive;
   color: rgb(255, 255, 255);
   line-height: 1.2;
@@ -178,13 +134,9 @@ html {
   text-align: center;
   padding-top: 170px;
   margin-bottom: 125px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -210,8 +162,6 @@ html {
   color: #ffffff;
   cursor: pointer;
   outline: none;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   background: transparent;
   margin: 0 auto;
@@ -219,12 +169,8 @@ html {
 }
 
 .title_section {
-
-
-  width: 320px;
+  /* width: 320px; */
   margin: 0 auto;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
 }
@@ -241,15 +187,12 @@ html {
   background-color: #f38181;
   margin: 0 auto;
   display: block;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-
 }
 
 .title_section_item {
-  font-size: 24px;
-  font-family: "Kaushan Script", cursive;
+  font-size: 90px;
+  font-family: "Lobster";
   color: #333333;
   line-height: 1.2;
   text-align: center;
@@ -269,6 +212,7 @@ html {
   padding-bottom: 40px;
 }
 
+/* services */
 .conteiner_services {
   padding: 50px 0px 100px;
   margin: 0 auto;
@@ -276,10 +220,7 @@ html {
 }
 
 .services {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   width: 1201px;
   margin: 0 auto;
@@ -288,8 +229,6 @@ html {
 
 .servicec_item {
   width: 400px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -306,7 +245,6 @@ html {
   width: 32px;
   height: 32px;
   fill: rgb(149, 225, 211);
-
 }
 
 .title_services {
@@ -314,7 +252,7 @@ html {
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   color: rgb(51, 51, 51);
-  text-transform: uppercase;
+
   line-height: 1.2;
 }
 
@@ -328,6 +266,7 @@ html {
   text-align: left;
 }
 
+/* conteiner team */
 .conteiner_team {
   width: 1200px;
   margin: 0 auto;
@@ -342,17 +281,10 @@ html {
   font-family: "Roboto";
   color: rgb(153, 153, 153);
   line-height: 1.6;
-
 }
 
-
-
 .team {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -360,11 +292,8 @@ html {
   position: relative;
 }
 
-
 .overlay {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgb(243, 129, 129, 0.9)), to(rgb(252, 227, 138, 0.9)));
-  background: -o-linear-gradient(rgb(243, 129, 129, 0.9), rgb(252, 227, 138, 0.9));
-  background: linear-gradient(rgb(243, 129, 129, 0.9), rgb(252, 227, 138, 0.9));
+  background: linear-gradient(rgb(243, 129, 129, 0.3), rgba(3, 3, 3, 0.5));
   position: absolute;
   width: 100%;
   height: 100%;
@@ -373,13 +302,8 @@ html {
 }
 
 .box_image:hover .image_team {
-  -webkit-transform: translate(-10px, -10px);
-  -ms-transform: translate(-10px, -10px);
   transform: translate(-10px, -10px);
-  -webkit-box-shadow: 10px 10px rgb(149, 225, 211);
   box-shadow: 10px 10px rgb(149, 225, 211);
-  -webkit-transition: linear 220ms;
-  -o-transition: linear 220ms;
   transition: linear 220ms;
 }
 
@@ -391,8 +315,6 @@ html {
 
 .box_image:hover .overlay {
   display: block;
-  -webkit-transition: linear 220ms;
-  -o-transition: linear 220ms;
   transition: linear 220ms;
 }
 
@@ -401,7 +323,6 @@ html {
   width: 26px;
   height: 26px;
 }
-
 
 .social_item:hover .icon_social {
   fill: antiquewhite;
@@ -415,40 +336,26 @@ html {
   width: 55px;
   height: 55px;
   background-color: rgb(252, 227, 138);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   cursor: pointer;
 }
 
 .social {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 225px;
-  -webkit-transform: translate(78px, 209px);
-  -ms-transform: translate(78px, 209px);
   transform: translate(78px, 209px);
 }
 
 .title_team {
   font-size: 14px;
-  font-family: "Montserrat",
-    sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: rgb(51, 51, 51);
   text-transform: uppercase;
   line-height: 1.2;
   text-align: center;
-
 }
 
 .subtitle_team_item {
@@ -459,27 +366,20 @@ html {
   font-style: italic;
   line-height: 1.6;
   text-align: center;
-
 }
 
+/* footer */
 footer {
-  -ms-flex-line-pack: center;
   align-content: center;
 }
 
 .footer-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 1200px;
   margin: 0 auto;
   border-top: 1px solid rgb(229, 229, 229);
   padding-top: 25px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   padding-bottom: 25px;
 }
@@ -493,8 +393,6 @@ footer {
 
 .footer-content a:hover {
   text-shadow: 0 0 4px #f38181;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
